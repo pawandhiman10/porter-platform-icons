@@ -1,11 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
-  <defs>
-    <linearGradient id="bg_vacuum-bot" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.3"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="300" rx="0" fill="url(#bg_vacuum-bot)"/>
-  <circle cx="950" cy="145" r="45" fill="#f59e0b" opacity="0.1"/><circle cx="930" cy="130" r="10" fill="#f59e0b" opacity="0.25"/><circle cx="970" cy="130" r="10" fill="#f59e0b" opacity="0.25"/><path d="M930 165 Q950 185 970 165" stroke="#f59e0b" stroke-width="2" fill="none" opacity="0.3"/>
-  <text x="80" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="white" opacity="0.95">Vacuum Bot</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+<rect width="600" height="300" fill="white"/>
+<circle cx="300" cy="145" r="50" fill="none" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="280" cy="130" r="10" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+<circle cx="320" cy="130" r="10" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+<path d="M280 165 Q300 185 320 165" fill="none" stroke="#9ca3af" stroke-width="2"/>
+<line x1="265" y1="100" x2="275" y2="110" stroke="#d1d5db" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="335" y1="100" x2="325" y2="110" stroke="#d1d5db" stroke-width="1.5" stroke-linecap="round"/>
 </svg>

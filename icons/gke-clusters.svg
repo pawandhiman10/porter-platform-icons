@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
-  <defs>
-    <linearGradient id="bg_gke-clusters" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0.3"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="300" rx="0" fill="url(#bg_gke-clusters)"/>
-  <polygon points="950,80 1005,115 1005,185 950,220 895,185 895,115" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.3"/><circle cx="950" cy="150" r="25" fill="#3b82f6" opacity="0.15"/><circle cx="950" cy="130" r="6" fill="#3b82f6" opacity="0.4"/><circle cx="965" cy="160" r="6" fill="#3b82f6" opacity="0.4"/><circle cx="935" cy="160" r="6" fill="#3b82f6" opacity="0.4"/>
-  <text x="80" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="white" opacity="0.95">GKE Clusters</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+<rect width="600" height="300" fill="white"/>
+<polygon points="300,50 370,90 370,170 300,210 230,170 230,90" fill="none" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="300" cy="130" r="30" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+<circle cx="300" cy="115" r="6" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+<circle cx="315" cy="145" r="6" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+<circle cx="285" cy="145" r="6" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+<line x1="300" y1="121" x2="300" y2="130" stroke="#d1d5db" stroke-width="1"/>
+<line x1="309" y1="141" x2="300" y2="130" stroke="#d1d5db" stroke-width="1"/>
+<line x1="291" y1="141" x2="300" y2="130" stroke="#d1d5db" stroke-width="1"/>
 </svg>

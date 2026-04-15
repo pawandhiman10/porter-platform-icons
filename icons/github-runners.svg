@@ -1,11 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
-  <defs>
-    <linearGradient id="bg_github-runners" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#e5e5e5;stop-opacity:0.3"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="300" rx="0" fill="url(#bg_github-runners)"/>
-  <circle cx="950" cy="130" r="40" fill="#1e1e1e" opacity="0.4"/><circle cx="950" cy="120" r="16" fill="#e5e5e5" opacity="0.1"/><ellipse cx="950" cy="150" rx="22" ry="14" fill="#e5e5e5" opacity="0.1"/><path d="M920 165 L900 200" stroke="#1e1e1e" stroke-width="3" opacity="0.3" stroke-linecap="round"/><path d="M980 165 L1000 200" stroke="#1e1e1e" stroke-width="3" opacity="0.3" stroke-linecap="round"/>
-  <text x="80" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="white" opacity="0.95">GitHub Runners</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+<rect width="600" height="300" fill="white"/>
+<circle cx="300" cy="115" r="40" fill="none" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="300" cy="105" r="16" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+<ellipse cx="300" cy="138" rx="22" ry="13" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+<line x1="270" y1="150" x2="250" y2="200" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"/>
+<line x1="330" y1="150" x2="350" y2="200" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"/>
+<line x1="285" y1="155" x2="270" y2="210" stroke="#9ca3af" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="315" y1="155" x2="330" y2="210" stroke="#9ca3af" stroke-width="1.5" stroke-linecap="round"/>
 </svg>

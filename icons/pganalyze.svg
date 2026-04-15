@@ -1,11 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
-  <defs>
-    <linearGradient id="bg_pganalyze" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0.3"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="300" rx="0" fill="url(#bg_pganalyze)"/>
-  <ellipse cx="950" cy="110" rx="65" ry="25" fill="#3b82f6" opacity="0.15"/><rect x="885" y="110" width="130" height="75" fill="#3b82f6" opacity="0.08"/><ellipse cx="950" cy="185" rx="65" ry="25" fill="#3b82f6" opacity="0.15"/><ellipse cx="950" cy="110" rx="65" ry="25" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.3"/><path d="M885 145 A65 25 0 0 0 1015 145" stroke="#3b82f6" stroke-width="1.5" fill="none" opacity="0.2"/>
-  <text x="80" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="white" opacity="0.95">PGAnalyze</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+<rect width="600" height="300" fill="white"/>
+<ellipse cx="300" cy="90" rx="70" ry="25" fill="none" stroke="#9ca3af" stroke-width="2"/>
+<line x1="230" y1="90" x2="230" y2="190" stroke="#9ca3af" stroke-width="2"/>
+<line x1="370" y1="90" x2="370" y2="190" stroke="#9ca3af" stroke-width="2"/>
+<ellipse cx="300" cy="190" rx="70" ry="25" fill="none" stroke="#9ca3af" stroke-width="2"/>
+<path d="M230 130 A70 25 0 0 0 370 130" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+<path d="M230 160 A70 25 0 0 0 370 160" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
 </svg>

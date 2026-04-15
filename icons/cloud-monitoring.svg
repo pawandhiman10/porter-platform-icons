@@ -1,11 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
-  <defs>
-    <linearGradient id="bg_cloud-monitoring" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:0.3"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="300" rx="0" fill="url(#bg_cloud-monitoring)"/>
-  <rect x="800" y="80" width="300" height="160" rx="10" fill="#1e3a5f" opacity="0.3"/><polyline points="820,200 860,170 900,185 940,140 980,160 1020,120 1060,130" stroke="#3b82f6" stroke-width="2.5" fill="none" opacity="0.5"/><circle cx="1060" cy="130" r="5" fill="#3b82f6" opacity="0.6"/>
-  <text x="80" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="white" opacity="0.95">Cloud Monitoring</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+<rect width="600" height="300" fill="white"/>
+<rect x="190" y="70" width="220" height="160" rx="8" fill="none" stroke="#9ca3af" stroke-width="2"/>
+<polyline points="210,190 245,160 280,175 315,130 350,145 385,110" fill="none" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="385" cy="110" r="4" fill="#9ca3af"/>
+<ellipse cx="300" cy="55" rx="35" ry="18" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
 </svg>

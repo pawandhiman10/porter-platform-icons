@@ -1,11 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
-  <defs>
-    <linearGradient id="bg_terraform" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.3"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="300" rx="0" fill="url(#bg_terraform)"/>
-  <polygon points="950,80 1010,115 1010,185 950,220 890,185 890,115" fill="none" stroke="#7c3aed" stroke-width="2" opacity="0.4"/><polygon points="950,110 980,128 980,165 950,183 920,165 920,128" fill="#7c3aed" opacity="0.15"/>
-  <text x="80" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="white" opacity="0.95">Terraform</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+<rect width="600" height="300" fill="white"/>
+<polygon points="300,50 370,90 370,170 300,210 230,170 230,90" fill="none" stroke="#9ca3af" stroke-width="2"/>
+<polygon points="300,85 340,108 340,152 300,175 260,152 260,108" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+<circle cx="300" cy="130" r="15" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
 </svg>

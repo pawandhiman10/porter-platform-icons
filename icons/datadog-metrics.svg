@@ -1,11 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
-  <defs>
-    <linearGradient id="bg_datadog-metrics" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.3"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="300" rx="0" fill="url(#bg_datadog-metrics)"/>
-  <polyline points="780,220 840,180 900,195 960,140 1020,160 1080,100" stroke="#7c3aed" stroke-width="3" fill="none" opacity="0.5"/><circle cx="1080" cy="100" r="6" fill="#7c3aed" opacity="0.6"/><path d="M770 230 L1100 230" stroke="#475569" stroke-width="1" opacity="0.4"/><path d="M770 100 L770 230" stroke="#475569" stroke-width="1" opacity="0.4"/>
-  <text x="80" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="white" opacity="0.95">Datadog Metrics</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+<rect width="600" height="300" fill="white"/>
+<line x1="180" y1="60" x2="180" y2="230" stroke="#9ca3af" stroke-width="1.5"/>
+<line x1="180" y1="230" x2="420" y2="230" stroke="#9ca3af" stroke-width="1.5"/>
+<polyline points="200,200 240,170 280,185 320,130 360,145 400,100" fill="none" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="400" cy="100" r="4" fill="#9ca3af"/>
+<polyline points="200,210 240,195 280,200 320,180 360,170 400,160" fill="none" stroke="#d1d5db" stroke-width="1.5" stroke-dasharray="4"/>
 </svg>

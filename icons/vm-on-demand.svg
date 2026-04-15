@@ -1,11 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
-  <defs>
-    <linearGradient id="bg_vm-on-demand" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.3"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="300" rx="0" fill="url(#bg_vm-on-demand)"/>
-  <rect x="870" y="90" width="160" height="120" rx="8" fill="#1e3a5f" opacity="0.3"/><rect x="885" y="105" width="130" height="75" rx="4" fill="#2d1b69" opacity="0.3"/><path d="M910 135 L925 150 L910 165" stroke="#7c3aed" stroke-width="2" opacity="0.5" stroke-linecap="round"/><path d="M945 135 L945 165" stroke="#7c3aed" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
-  <text x="80" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="white" opacity="0.95">VM on Demand</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+<rect width="600" height="300" fill="white"/>
+<rect x="220" y="60" width="160" height="130" rx="6" fill="none" stroke="#9ca3af" stroke-width="2"/>
+<rect x="235" y="75" width="130" height="85" rx="3" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+<path d="M260 110 L275 125 L260 140" stroke="#9ca3af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="290" y1="110" x2="290" y2="140" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"/>
+<rect x="265" y="195" width="70" height="10" rx="3" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+<line x1="300" y1="190" x2="300" y2="195" stroke="#d1d5db" stroke-width="1.5"/>
 </svg>
