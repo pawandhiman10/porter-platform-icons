@@ -1,4 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
-  <rect width="200" height="200" rx="24" fill="#831843"/>
-  <circle cx="100" cy="70" r="18" fill="#f59e0b" opacity="0.5"/><rect x="70" y="95" width="60" height="35" rx="6" fill="#f59e0b" opacity="0.3"/><path d="M85 105 L95 115 L115 95" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="bg_db-user-mgmt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="0" fill="url(#bg_db-user-mgmt)"/>
+  <circle cx="950" cy="120" r="25" fill="#f59e0b" opacity="0.15"/><rect x="915" y="150" width="70" height="50" rx="8" fill="#f59e0b" opacity="0.1"/><path d="M935 170 L948 183 L975 155" stroke="#f59e0b" stroke-width="2.5" opacity="0.4" stroke-linecap="round"/>
+  <text x="80" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="white" opacity="0.95">DB User Management</text>
 </svg>

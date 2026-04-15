@@ -1,4 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
-  <rect width="200" height="200" rx="24" fill="#14532d"/>
-  <path d="M50 130 L80 90 L110 110 L140 60" stroke="#22c55e" stroke-width="4" fill="none" stroke-linecap="round"/><polygon points="140,55 150,68 135,68" fill="#22c55e"/><rect x="45" y="130" width="115" height="3" rx="1" fill="#6b7280"/><path d="M60 130 L60 120" stroke="#22c55e" stroke-width="2" stroke-dasharray="3"/><path d="M90 130 L90 105" stroke="#22c55e" stroke-width="2" stroke-dasharray="3"/><path d="M120 130 L120 85" stroke="#22c55e" stroke-width="2" stroke-dasharray="3"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="bg_keda" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#22c55e;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="0" fill="url(#bg_keda)"/>
+  <path d="M820 210 L880 160 L940 180 L1000 120 L1060 80" stroke="#22c55e" stroke-width="3" fill="none" opacity="0.4" stroke-linecap="round"/><polygon points="1055,72 1068,88 1050,88" fill="#22c55e" opacity="0.5"/><path d="M815 215 L1070 215" stroke="#475569" stroke-width="1" opacity="0.3"/>
+  <text x="80" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="white" opacity="0.95">KEDA</text>
 </svg>

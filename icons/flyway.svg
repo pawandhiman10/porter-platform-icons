@@ -1,4 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
-  <rect width="200" height="200" rx="24" fill="#7c2d12"/>
-  <rect x="55" y="60" width="90" height="12" rx="3" fill="#ef4444" opacity="0.6"/><rect x="55" y="80" width="90" height="12" rx="3" fill="#f59e0b" opacity="0.6"/><rect x="55" y="100" width="90" height="12" rx="3" fill="#22c55e" opacity="0.6"/><rect x="55" y="120" width="90" height="12" rx="3" fill="#4a9eed" opacity="0.6"/><path d="M45 55 L45 145" stroke="#6b7280" stroke-width="2"/><polygon points="42,55 48,55 45,48" fill="#6b7280"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="bg_flyway" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ef4444;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="0" fill="url(#bg_flyway)"/>
+  <rect x="880" y="90" width="140" height="18" rx="4" fill="#ef4444" opacity="0.25"/><rect x="880" y="118" width="140" height="18" rx="4" fill="#f59e0b" opacity="0.25"/><rect x="880" y="146" width="140" height="18" rx="4" fill="#22c55e" opacity="0.25"/><rect x="880" y="174" width="140" height="18" rx="4" fill="#3b82f6" opacity="0.25"/><path d="M870 85 L870 200" stroke="#475569" stroke-width="2" opacity="0.3"/><polygon points="867,85 873,85 870,75" fill="#475569" opacity="0.3"/>
+  <text x="80" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="white" opacity="0.95">Flyway (DB Migrations)</text>
 </svg>

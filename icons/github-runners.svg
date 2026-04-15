@@ -1,4 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
-  <rect width="200" height="200" rx="24" fill="#7c2d12"/>
-  <circle cx="100" cy="85" r="30" fill="#1e1e1e" opacity="0.8"/><circle cx="100" cy="78" r="12" fill="#e5e5e5" opacity="0.3"/><ellipse cx="100" cy="105" rx="18" ry="10" fill="#e5e5e5" opacity="0.3"/><path d="M75 120 L60 145" stroke="#1e1e1e" stroke-width="3" stroke-linecap="round"/><path d="M125 120 L140 145" stroke="#1e1e1e" stroke-width="3" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="bg_github-runners" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#e5e5e5;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="0" fill="url(#bg_github-runners)"/>
+  <circle cx="950" cy="130" r="40" fill="#1e1e1e" opacity="0.4"/><circle cx="950" cy="120" r="16" fill="#e5e5e5" opacity="0.1"/><ellipse cx="950" cy="150" rx="22" ry="14" fill="#e5e5e5" opacity="0.1"/><path d="M920 165 L900 200" stroke="#1e1e1e" stroke-width="3" opacity="0.3" stroke-linecap="round"/><path d="M980 165 L1000 200" stroke="#1e1e1e" stroke-width="3" opacity="0.3" stroke-linecap="round"/>
+  <text x="80" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="white" opacity="0.95">GitHub Runners</text>
 </svg>

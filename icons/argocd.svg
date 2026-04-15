@@ -1,4 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
-  <rect width="200" height="200" rx="24" fill="#7c2d12"/>
-  <circle cx="100" cy="95" r="38" fill="none" stroke="#f59e0b" stroke-width="3"/><path d="M80 95 L95 110 L125 80" stroke="#22c55e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="bg_argocd" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="0" fill="url(#bg_argocd)"/>
+  <circle cx="950" cy="150" r="55" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.3"/><path d="M925 150 L942 167 L980 130" stroke="#22c55e" stroke-width="3" opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="80" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="white" opacity="0.95">ArgoCD</text>
 </svg>
