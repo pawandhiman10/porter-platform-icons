@@ -1,12 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
-<rect width="600" height="300" fill="white"/>
-<rect x="200" y="40" width="200" height="150" rx="8" fill="none" stroke="#9ca3af" stroke-width="2"/>
-<rect x="215" y="55" width="170" height="110" rx="4" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
-<line x1="230" y1="80" x2="370" y2="80" stroke="#9ca3af" stroke-width="1.5"/>
-<line x1="230" y1="100" x2="340" y2="100" stroke="#d1d5db" stroke-width="1.5"/>
-<line x1="230" y1="120" x2="360" y2="120" stroke="#9ca3af" stroke-width="1.5"/>
-<line x1="230" y1="140" x2="330" y2="140" stroke="#d1d5db" stroke-width="1.5"/>
-<rect x="270" y="190" width="60" height="8" rx="2" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
-<line x1="300" y1="198" x2="300" y2="220" stroke="#d1d5db" stroke-width="1.5"/>
-<line x1="250" y1="220" x2="350" y2="220" stroke="#9ca3af" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+<rect width="300" height="200" fill="white"/>
+
+<path d='M85 35 Q83 35 83 37 L83 125 Q83 127 85 127 L215 127 Q217 127 217 125 L217 37 Q217 35 215 35 Z' stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d='M130 130 L130 145 Q130 147 128 147 L172 147 Q170 147 170 145 L170 130' stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d='M120 147 L180 147' stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1='95' y1='55' x2='200' y2='55' stroke="#555" stroke-width="1" fill="none" stroke-linecap="round"/>
+<line x1='95' y1='70' x2='175' y2='70' stroke="#555" stroke-width="1" fill="none" stroke-linecap="round"/>
+<line x1='95' y1='85' x2='190' y2='85' stroke="#555" stroke-width="1" fill="none" stroke-linecap="round"/>
+<line x1='95' y1='100' x2='165' y2='100' stroke="#555" stroke-width="1" fill="none" stroke-linecap="round"/>
+<line x1='95' y1='115' x2='185' y2='115' stroke="#555" stroke-width="1" fill="none" stroke-linecap="round"/>
+<circle cx='95' cy='55' r='2' fill='#333'/>
+<circle cx='95' cy='70' r='2' fill='#555'/>
+<circle cx='95' cy='85' r='2' fill='#333'/>
+<circle cx='95' cy='100' r='2' fill='#555'/>
+
 </svg>

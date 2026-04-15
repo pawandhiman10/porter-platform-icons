@@ -1,8 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
-<rect width="600" height="300" fill="white"/>
-<circle cx="300" cy="150" r="65" fill="none" stroke="#9ca3af" stroke-width="2"/>
-<line x1="300" y1="95" x2="300" y2="150" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"/>
-<line x1="300" y1="150" x2="340" y2="175" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"/>
-<circle cx="300" cy="150" r="6" fill="none" stroke="#9ca3af" stroke-width="2"/>
-<circle cx="300" cy="150" r="2" fill="#9ca3af"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+<rect width="300" height="200" fill="white"/>
+
+<circle cx='150' cy='100' r='50' stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1='150' y1='60' x2='150' y2='100' stroke='#333' stroke-width='2' stroke-linecap='round'/>
+<line x1='150' y1='100' x2='178' y2='118' stroke='#333' stroke-width='2' stroke-linecap='round'/>
+<circle cx='150' cy='100' r='5' stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx='150' cy='100' r='2' fill='#333'/>
+
 </svg>

@@ -1,9 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
-<rect width="600" height="300" fill="white"/>
-<circle cx="300" cy="150" r="60" fill="none" stroke="#9ca3af" stroke-width="2"/>
-<line x1="300" y1="95" x2="300" y2="150" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"/>
-<circle cx="300" cy="150" r="12" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
-<circle cx="300" cy="150" r="4" fill="#9ca3af"/>
-<line x1="255" y1="110" x2="270" y2="125" stroke="#d1d5db" stroke-width="1.5" stroke-linecap="round"/>
-<line x1="345" y1="110" x2="330" y2="125" stroke="#d1d5db" stroke-width="1.5" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+<rect width="300" height="200" fill="white"/>
+
+<circle cx='150' cy='100' r='50' stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx='150' cy='100' r='30' stroke="#555" stroke-width="1" fill="none" stroke-linecap="round"/>
+<circle cx='150' cy='100' r='10' stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1='150' y1='100' x2='150' y2='55' stroke='#333' stroke-width='1.5'/>
+<line x1='150' y1='100' x2='185' y2='78' stroke='#333' stroke-width='1.5'/>
+<path d='M150 55 A50 50 0 0 1 185 78' fill='#ddd' opacity='0.3' stroke='none'/>
+
 </svg>

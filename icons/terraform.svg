@@ -1,6 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
-<rect width="600" height="300" fill="white"/>
-<polygon points="300,50 370,90 370,170 300,210 230,170 230,90" fill="none" stroke="#9ca3af" stroke-width="2"/>
-<polygon points="300,85 340,108 340,152 300,175 260,152 260,108" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
-<circle cx="300" cy="130" r="15" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+<rect width="300" height="200" fill="white"/>
+
+<polygon points='150,30 205,60 205,120 150,150 95,120 95,60' stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points='150,55 180,72 180,108 150,125 120,108 120,72' stroke="#555" stroke-width="1" fill="none" stroke-linecap="round"/>
+<line x1='135' y1='72' x2='165' y2='72' stroke='#333' stroke-width='2'/>
+<line x1='150' y1='72' x2='150' y2='110' stroke='#333' stroke-width='2'/>
+
 </svg>

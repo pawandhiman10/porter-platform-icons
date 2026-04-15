@@ -1,10 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
-<rect width="600" height="300" fill="white"/>
-<circle cx="230" cy="140" r="30" fill="none" stroke="#9ca3af" stroke-width="2"/>
-<circle cx="370" cy="140" r="30" fill="none" stroke="#9ca3af" stroke-width="2"/>
-<line x1="260" y1="140" x2="340" y2="140" stroke="#d1d5db" stroke-width="1.5" stroke-dasharray="5"/>
-<polygon points="332,133 345,140 332,147" fill="#9ca3af"/>
-<polygon points="268,133 255,140 268,147" fill="#9ca3af"/>
-<circle cx="230" cy="190" r="15" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
-<circle cx="370" cy="190" r="15" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+<rect width="300" height="200" fill="white"/>
+
+<circle cx='110' cy='100' r='25' stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx='190' cy='100' r='25' stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1='135' y1='92' x2='165' y2='92' stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points='160,87 170,92 160,97' fill='#333'/>
+<line x1='165' y1='108' x2='135' y2='108' stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points='140,103 130,108 140,113' fill='#333'/>
+<circle cx='100' cy='90' r='3' fill='#555'/>
+<circle cx='120' cy='90' r='3' fill='#555'/>
+<circle cx='180' cy='90' r='3' fill='#555'/>
+<circle cx='200' cy='90' r='3' fill='#555'/>
+
 </svg>

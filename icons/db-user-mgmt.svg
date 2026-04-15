@@ -1,6 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
-<rect width="600" height="300" fill="white"/>
-<circle cx="300" cy="110" r="30" fill="none" stroke="#9ca3af" stroke-width="2"/>
-<rect x="260" y="150" width="80" height="60" rx="8" fill="none" stroke="#9ca3af" stroke-width="2"/>
-<polyline points="280,175 295,190 325,160" fill="none" stroke="#9ca3af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+<rect width="300" height="200" fill="white"/>
+
+<circle cx='120' cy='75' r='20' stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x='100' y='100' width='40' height='35' rx='5' stroke="#555" stroke-width="1" fill="none" stroke-linecap="round"/>
+<ellipse cx='200' cy='80' rx='30' ry='12' stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1='170' y1='80' x2='170' y2='125' stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1='230' y1='80' x2='230' y2='125' stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx='200' cy='125' rx='30' ry='12' stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d='M170 100 A30 12 0 0 0 230 100' stroke="#555" stroke-width="1" fill="none" stroke-linecap="round"/>
+<line x1='145' y1='110' x2='168' y2='100' stroke="#999" stroke-width="1" fill="none" stroke-linecap="round" stroke-dasharray="4"/>
+
 </svg>
