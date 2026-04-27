@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280">
+<rect width="1200" height="280" fill="white"/>
+
+<!-- Boxes -->
+<rect x="20" y="110" width="140" height="45" rx="6" stroke="#333" stroke-width="1.5" fill="none"/>
+<text x="90" y="137" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="middle">Core Infrastructure</text>
+
+<rect x="200" y="110" width="130" height="45" rx="6" stroke="#333" stroke-width="1.5" fill="none"/>
+<text x="265" y="137" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="middle">Identity &amp; Access</text>
+
+<rect x="370" y="110" width="160" height="45" rx="6" stroke="#333" stroke-width="1.5" fill="none"/>
+<text x="450" y="137" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="middle">Developer Productivity</text>
+
+<!-- Branch: Database (top) -->
+<rect x="580" y="55" width="110" height="45" rx="6" stroke="#333" stroke-width="1.5" fill="none"/>
+<text x="635" y="82" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="middle">Database</text>
+
+<!-- Branch: Data & Streaming (bottom) -->
+<rect x="580" y="165" width="130" height="45" rx="6" stroke="#333" stroke-width="1.5" fill="none"/>
+<text x="645" y="192" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="middle">Data &amp; Streaming</text>
+
+<rect x="760" y="110" width="120" height="45" rx="6" stroke="#333" stroke-width="1.5" fill="none"/>
+<text x="820" y="137" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="middle">Observability</text>
+
+<rect x="920" y="110" width="100" height="45" rx="6" stroke="#333" stroke-width="1.5" fill="none"/>
+<text x="970" y="137" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="middle">Security</text>
+
+<rect x="1060" y="110" width="110" height="45" rx="6" stroke="#333" stroke-width="1.5" fill="none"/>
+<text x="1115" y="137" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="middle">Governance</text>
+
+<!-- Arrows: main flow -->
+<line x1="160" y1="132" x2="198" y2="132" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line x1="330" y1="132" x2="368" y2="132" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+
+<!-- Arrows: branch to Database -->
+<path d="M530,120 Q555,77 578,77" stroke="#555" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+
+<!-- Arrows: branch to Data & Streaming -->
+<path d="M530,145 Q555,187 578,187" stroke="#555" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+
+<!-- Arrows: Database to Observability -->
+<path d="M690,77 Q725,77 725,120 Q725,132 758,132" stroke="#555" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+
+<!-- Arrows: Data & Streaming to Observability -->
+<path d="M710,187 Q725,187 725,145 Q725,132 758,132" stroke="#555" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+
+<!-- Arrows: Observability to Security -->
+<line x1="880" y1="132" x2="918" y2="132" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+
+<!-- Arrows: Security to Governance -->
+<line x1="1020" y1="132" x2="1058" y2="132" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+
+<!-- Bottom labels -->
+<text x="90" y="250" font-family="Inter, sans-serif" font-size="11" fill="#888" text-anchor="middle">Run on it</text>
+<text x="265" y="250" font-family="Inter, sans-serif" font-size="11" fill="#888" text-anchor="middle">Access it</text>
+<text x="450" y="250" font-family="Inter, sans-serif" font-size="11" fill="#888" text-anchor="middle">Ship to it</text>
+<text x="635" y="250" font-family="Inter, sans-serif" font-size="11" fill="#888" text-anchor="middle">Store / Stream</text>
+<text x="820" y="250" font-family="Inter, sans-serif" font-size="11" fill="#888" text-anchor="middle">Watch it</text>
+<text x="970" y="250" font-family="Inter, sans-serif" font-size="11" fill="#888" text-anchor="middle">Protect it</text>
+<text x="1115" y="250" font-family="Inter, sans-serif" font-size="11" fill="#888" text-anchor="middle">Govern it</text>
+
+<!-- Arrow marker -->
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#555"/>
+</marker>
+</defs>
+</svg>
