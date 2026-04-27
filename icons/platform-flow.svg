@@ -1,68 +1,93 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280">
-<rect width="1200" height="280" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 320" width="1250" height="320">
+<rect width="1250" height="320" fill="white"/>
 
-<!-- Boxes -->
-<rect x="20" y="110" width="140" height="45" rx="6" stroke="#333" stroke-width="1.5" fill="none"/>
-<text x="90" y="137" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="middle">Core Infrastructure</text>
-
-<rect x="200" y="110" width="130" height="45" rx="6" stroke="#333" stroke-width="1.5" fill="none"/>
-<text x="265" y="137" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="middle">Identity &amp; Access</text>
-
-<rect x="370" y="110" width="160" height="45" rx="6" stroke="#333" stroke-width="1.5" fill="none"/>
-<text x="450" y="137" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="middle">Developer Productivity</text>
-
-<!-- Branch: Database (top) -->
-<rect x="580" y="55" width="110" height="45" rx="6" stroke="#333" stroke-width="1.5" fill="none"/>
-<text x="635" y="82" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="middle">Database</text>
-
-<!-- Branch: Data & Streaming (bottom) -->
-<rect x="580" y="165" width="130" height="45" rx="6" stroke="#333" stroke-width="1.5" fill="none"/>
-<text x="645" y="192" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="middle">Data &amp; Streaming</text>
-
-<rect x="760" y="110" width="120" height="45" rx="6" stroke="#333" stroke-width="1.5" fill="none"/>
-<text x="820" y="137" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="middle">Observability</text>
-
-<rect x="920" y="110" width="100" height="45" rx="6" stroke="#333" stroke-width="1.5" fill="none"/>
-<text x="970" y="137" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="middle">Security</text>
-
-<rect x="1060" y="110" width="110" height="45" rx="6" stroke="#333" stroke-width="1.5" fill="none"/>
-<text x="1115" y="137" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="middle">Governance</text>
-
-<!-- Arrows: main flow -->
-<line x1="160" y1="132" x2="198" y2="132" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
-<line x1="330" y1="132" x2="368" y2="132" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
-
-<!-- Arrows: branch to Database -->
-<path d="M530,120 Q555,77 578,77" stroke="#555" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
-
-<!-- Arrows: branch to Data & Streaming -->
-<path d="M530,145 Q555,187 578,187" stroke="#555" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
-
-<!-- Arrows: Database to Observability -->
-<path d="M690,77 Q725,77 725,120 Q725,132 758,132" stroke="#555" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
-
-<!-- Arrows: Data & Streaming to Observability -->
-<path d="M710,187 Q725,187 725,145 Q725,132 758,132" stroke="#555" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
-
-<!-- Arrows: Observability to Security -->
-<line x1="880" y1="132" x2="918" y2="132" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
-
-<!-- Arrows: Security to Governance -->
-<line x1="1020" y1="132" x2="1058" y2="132" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
-
-<!-- Bottom labels -->
-<text x="90" y="250" font-family="Inter, sans-serif" font-size="11" fill="#888" text-anchor="middle">Run on it</text>
-<text x="265" y="250" font-family="Inter, sans-serif" font-size="11" fill="#888" text-anchor="middle">Access it</text>
-<text x="450" y="250" font-family="Inter, sans-serif" font-size="11" fill="#888" text-anchor="middle">Ship to it</text>
-<text x="635" y="250" font-family="Inter, sans-serif" font-size="11" fill="#888" text-anchor="middle">Store / Stream</text>
-<text x="820" y="250" font-family="Inter, sans-serif" font-size="11" fill="#888" text-anchor="middle">Watch it</text>
-<text x="970" y="250" font-family="Inter, sans-serif" font-size="11" fill="#888" text-anchor="middle">Protect it</text>
-<text x="1115" y="250" font-family="Inter, sans-serif" font-size="11" fill="#888" text-anchor="middle">Govern it</text>
-
-<!-- Arrow marker -->
 <defs>
-<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-<path d="M 0 0 L 10 5 L 0 10 z" fill="#555"/>
+<marker id="arr" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+<path d="M0,0 L10,5 L0,10 z" fill="#aaa"/>
 </marker>
 </defs>
+
+<!-- 1. Core Infrastructure — server icon -->
+<rect x="30" y="110" width="130" height="55" rx="8" stroke="#444" stroke-width="1.5" fill="#fafafa"/>
+<rect x="75" y="70" width="40" height="30" rx="3" stroke="#555" stroke-width="1.2" fill="none"/>
+<line x1="82" y1="80" x2="108" y2="80" stroke="#555" stroke-width="1"/>
+<line x1="82" y1="87" x2="108" y2="87" stroke="#555" stroke-width="1"/>
+<circle cx="105" cy="93" r="2" fill="#555"/>
+<text x="95" y="143" font-family="Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#333" text-anchor="middle">Core Infrastructure</text>
+
+<!-- 2. Identity & Access — key icon -->
+<rect x="210" y="110" width="130" height="55" rx="8" stroke="#444" stroke-width="1.5" fill="#fafafa"/>
+<circle cx="265" cy="85" r="8" stroke="#555" stroke-width="1.2" fill="none"/>
+<line x1="273" y1="85" x2="290" y2="85" stroke="#555" stroke-width="1.2"/>
+<line x1="285" y1="85" x2="285" y2="79" stroke="#555" stroke-width="1.2"/>
+<line x1="290" y1="85" x2="290" y2="79" stroke="#555" stroke-width="1.2"/>
+<text x="275" y="143" font-family="Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#333" text-anchor="middle">Identity &amp; Access</text>
+
+<!-- 3. Developer Productivity — rocket icon -->
+<rect x="390" y="110" width="150" height="55" rx="8" stroke="#444" stroke-width="1.5" fill="#fafafa"/>
+<path d="M465,68 L465,95 M458,88 L465,95 L472,88" stroke="#555" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="rotate(180,465,81)"/>
+<line x1="458" y1="70" x2="458" y2="76" stroke="#555" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="472" y1="70" x2="472" y2="76" stroke="#555" stroke-width="1.2" stroke-linecap="round"/>
+<text x="465" y="137" font-family="Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#333" text-anchor="middle">Developer</text>
+<text x="465" y="152" font-family="Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#333" text-anchor="middle">Productivity</text>
+
+<!-- 4. Database — cylinder icon -->
+<rect x="600" y="50" width="110" height="55" rx="8" stroke="#444" stroke-width="1.5" fill="#fafafa"/>
+<ellipse cx="655" cy="22" rx="18" ry="6" stroke="#555" stroke-width="1.2" fill="none"/>
+<line x1="637" y1="22" x2="637" y2="40" stroke="#555" stroke-width="1.2"/>
+<line x1="673" y1="22" x2="673" y2="40" stroke="#555" stroke-width="1.2"/>
+<ellipse cx="655" cy="40" rx="18" ry="6" stroke="#555" stroke-width="1.2" fill="none"/>
+<text x="655" y="83" font-family="Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#333" text-anchor="middle">Database</text>
+
+<!-- 5. Data & Streaming — stream icon -->
+<rect x="600" y="170" width="130" height="55" rx="8" stroke="#444" stroke-width="1.5" fill="#fafafa"/>
+<path d="M640,240 Q655,232 670,240 Q685,248 700,240" stroke="#555" stroke-width="1.2" fill="none" stroke-linecap="round" transform="translate(0,-90)"/>
+<path d="M640,248 Q655,240 670,248 Q685,256 700,248" stroke="#555" stroke-width="1.2" fill="none" stroke-linecap="round" transform="translate(0,-90)"/>
+<text x="665" y="200" font-family="Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#333" text-anchor="middle">Data &amp; Streaming</text>
+
+<!-- 6. Observability — eye icon -->
+<rect x="790" y="110" width="120" height="55" rx="8" stroke="#444" stroke-width="1.5" fill="#fafafa"/>
+<ellipse cx="850" cy="85" rx="16" ry="10" stroke="#555" stroke-width="1.2" fill="none"/>
+<circle cx="850" cy="85" r="4" stroke="#555" stroke-width="1.2" fill="none"/>
+<text x="850" y="143" font-family="Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#333" text-anchor="middle">Observability</text>
+
+<!-- 7. Security — shield icon -->
+<rect x="960" y="110" width="100" height="55" rx="8" stroke="#444" stroke-width="1.5" fill="#fafafa"/>
+<path d="M1010,72 L1010,92 Q1010,100 1000,104 Q990,100 990,92 L990,72 L1000,68 L1010,72 Z" stroke="#555" stroke-width="1.2" fill="none" stroke-linejoin="round"/>
+<polyline points="995,86 999,90 1007,80" stroke="#555" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1010" y="143" font-family="Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#333" text-anchor="middle">Security</text>
+
+<!-- 8. Governance — scales/balance icon -->
+<rect x="1110" y="110" width="110" height="55" rx="8" stroke="#444" stroke-width="1.5" fill="#fafafa"/>
+<line x1="1165" y1="70" x2="1165" y2="100" stroke="#555" stroke-width="1.2"/>
+<line x1="1147" y1="78" x2="1183" y2="78" stroke="#555" stroke-width="1.2"/>
+<path d="M1147,78 L1142,90 L1152,90 Z" stroke="#555" stroke-width="1" fill="none"/>
+<path d="M1183,78 L1178,90 L1188,90 Z" stroke="#555" stroke-width="1" fill="none"/>
+<line x1="1158" y1="100" x2="1172" y2="100" stroke="#555" stroke-width="1.2"/>
+<text x="1165" y="143" font-family="Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#333" text-anchor="middle">Governance</text>
+
+<!-- Arrows -->
+<line x1="160" y1="137" x2="208" y2="137" stroke="#bbb" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="340" y1="137" x2="388" y2="137" stroke="#bbb" stroke-width="1.5" marker-end="url(#arr)"/>
+<polyline points="540,120 570,77 598,77" stroke="#bbb" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
+<polyline points="540,150 570,197 598,197" stroke="#bbb" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
+<polyline points="710,77 745,77 745,137 788,137" stroke="#bbb" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
+<polyline points="730,197 745,197 745,137 788,137" stroke="#bbb" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
+<line x1="910" y1="137" x2="958" y2="137" stroke="#bbb" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="1060" y1="137" x2="1108" y2="137" stroke="#bbb" stroke-width="1.5" marker-end="url(#arr)"/>
+
+<!-- Bottom labels -->
+<text x="95" y="290" font-family="Inter,Helvetica,Arial,sans-serif" font-size="10.5" fill="#999" text-anchor="middle" font-style="italic">Run on it</text>
+<text x="175" y="290" font-family="Inter,Helvetica,Arial,sans-serif" font-size="11" fill="#ccc" text-anchor="middle">→</text>
+<text x="275" y="290" font-family="Inter,Helvetica,Arial,sans-serif" font-size="10.5" fill="#999" text-anchor="middle" font-style="italic">Access it</text>
+<text x="345" y="290" font-family="Inter,Helvetica,Arial,sans-serif" font-size="11" fill="#ccc" text-anchor="middle">→</text>
+<text x="465" y="290" font-family="Inter,Helvetica,Arial,sans-serif" font-size="10.5" fill="#999" text-anchor="middle" font-style="italic">Ship to it</text>
+<text x="545" y="290" font-family="Inter,Helvetica,Arial,sans-serif" font-size="11" fill="#ccc" text-anchor="middle">→</text>
+<text x="655" y="290" font-family="Inter,Helvetica,Arial,sans-serif" font-size="10.5" fill="#999" text-anchor="middle" font-style="italic">Store / Stream</text>
+<text x="735" y="290" font-family="Inter,Helvetica,Arial,sans-serif" font-size="11" fill="#ccc" text-anchor="middle">→</text>
+<text x="850" y="290" font-family="Inter,Helvetica,Arial,sans-serif" font-size="10.5" fill="#999" text-anchor="middle" font-style="italic">Watch it</text>
+<text x="930" y="290" font-family="Inter,Helvetica,Arial,sans-serif" font-size="11" fill="#ccc" text-anchor="middle">→</text>
+<text x="1010" y="290" font-family="Inter,Helvetica,Arial,sans-serif" font-size="10.5" fill="#999" text-anchor="middle" font-style="italic">Protect it</text>
+<text x="1080" y="290" font-family="Inter,Helvetica,Arial,sans-serif" font-size="11" fill="#ccc" text-anchor="middle">→</text>
+<text x="1165" y="290" font-family="Inter,Helvetica,Arial,sans-serif" font-size="10.5" fill="#999" text-anchor="middle" font-style="italic">Govern it</text>
 </svg>
